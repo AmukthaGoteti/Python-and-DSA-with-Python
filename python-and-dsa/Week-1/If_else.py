@@ -13,3 +13,31 @@ if x!= 0:
     print(total)
 # end of the if statement
 print("This is always executed.")
+# if-else Statement
+number = int(input("Enter a number: "))
+if number > 0:
+    print(f'{number} is a positive number.')
+else:
+    print(f'{number} is not a positive number.')
+print('This statement always executes')
+# if-elif-else Statement
+number = -5
+if number > 0:
+    print(f'{number} is a positive number.')
+elif number == 0:
+    print('The number is zero.')
+else:
+    print(f'{number} is a negative number.')
+print('This statement always executes.')
+# nested if Statement
+number = 5
+# outer if statement
+if number >= 0:
+    # inner if statement
+    if number == 0:
+        print('The number is zero.')
+    else:
+        print(f'{number} is a positive number.')
+else:
+    print(f'{number} is a negative number.')
+print('This statement always executes.')
