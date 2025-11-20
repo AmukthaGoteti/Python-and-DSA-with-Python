@@ -31,3 +31,12 @@ b = False
 print(a and b)
 print(a or b)
 print(not a)
+# Bitswise Operators
+a = 10
+b = 4
+print(a & b) # AND
+print(a | b) # OR
+print(~ a) # NOT
+print(a ^ b) # XOR
+print(a << 2) # Left Shift
+print(a >> 2) # Right Shift
