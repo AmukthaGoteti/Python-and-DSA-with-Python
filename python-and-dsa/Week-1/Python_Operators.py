@@ -40,3 +40,15 @@ print(~ a) # NOT
 print(a ^ b) # XOR
 print(a << 2) # Left Shift
 print(a >> 2) # Right Shift
+# Assignment Operators
+a = 10
+b = a
+print(b)
+b += a
+print(b)
+b -= a
+print(b)
+b *= a
+print(b)
+b <<= a
+print(b)
