@@ -52,3 +52,9 @@ b *= a
 print(b)
 b <<= a
 print(b)
+# Identity Operators
+a = 10
+b = 20
+c = a
+print(a is not b)
+print(a is c)
