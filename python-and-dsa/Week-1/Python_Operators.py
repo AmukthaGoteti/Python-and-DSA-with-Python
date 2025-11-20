@@ -84,3 +84,8 @@ if name == 'Alex' or name == 'John' and age >= 2:
     print("Hello! Welcome")
 else:
     print("Goodbye!")
+# Operators Associativity
+print(100 /10 * 10)
+print(5 - 2 + 3)
+print(5 - (2 +3))
+print(2 ** 3 ** 2)
