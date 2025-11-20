@@ -70,3 +70,7 @@ if (y in list):
     print("y is present in given list")
 else:
     print("y is NOT present in given list")
+# Ternary Operator
+a, b = 10, 20
+min = a if a < b else b
+print("Minimum value is:", min)
