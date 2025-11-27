@@ -53,12 +53,6 @@ It combines three pillars:
 ### 1. Prerequisites
 
 * **Python**: 3.9+ recommended
-* Basic familiarity with:
-
-  * Variables, loops, conditionals
-  * Functions and lists
-
-(If you’re an absolute beginner, start in `python-and-dsa/`.)
 
 ### 2. Clone the Repository
 
