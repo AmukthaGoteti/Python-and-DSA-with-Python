@@ -7,3 +7,12 @@ print()
 for i in range(6):
     print(i, end=" ")
 print()
+# Printing a natural
+# numbers from 5 to 20
+for i in range(5, 20):
+    print(i, end=" ")
+print()
+# Printing even numbers
+for i in range(0, 10, 2):
+    print(i, end=" ")
+print()
