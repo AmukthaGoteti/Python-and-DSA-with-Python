@@ -76,34 +76,97 @@ source venv/bin/activate
 In `problems/` you’ll typically see a structure like:
 
 1. **Problem statement** (comment at top of file)
-2. **Naive solution** — intuitive but less efficient
-3. **Optimized solution** — clean, commented, and analyzed
-4. **Time & Space Complexity** notes
+2. **Navie Approach** - Initial Approach you tought off
+3. **Naive solution** — intuitive but less efficient
+4. **Optimized solution** — clean, commented, and analyzed
+5. **Optimized Approach** - clean, commented, and analyzed approach
+5. **Time & Space Complexity** notes
 
 Example template:
 
 ```python
 """
-Problem:
-Given an array of integers nums and an integer target, return indices of the
-two numbers such that they add up to target.
+------------------------------------------------------------
+📝 Problem Statement:
+Given an array of integers `nums`, return the maximum sum of any
+contiguous subarray. (Classic Kadane’s Algorithm problem)
 
-Approach:
-- Use a hash map to store value -> index
-- For each element, check if (target - current) exists in map
+Example:
+Input:  nums = [-2,1,-3,4,-1,2,1,-5,4]
+Output: 6
+Explanation: [4, -1, 2, 1] has the largest sum = 6
+------------------------------------------------------------
 
-Time:  O(n)
-Space: O(n)
+🧠 Naive Approach (Initial Thoughts):
+- Consider every possible subarray.
+- Compute its sum.
+- Track the maximum.
+- This involves nested loops and recomputing sums repeatedly.
+
+This is brute force but helps understand the problem.
+------------------------------------------------------------
+
+🐌 Naive Solution (Less Efficient):
+Time-consuming but straightforward.
 """
 
-def two_sum(nums, target):
-    index_map = {}
-    for i, num in enumerate(nums):
-        complement = target - num
-        if complement in index_map:
-            return [index_map[complement], i]
-        index_map[num] = i
-    return []
+# Naive O(n^2) Solution
+def max_subarray_naive(nums):
+    max_sum = float('-inf')
+    n = len(nums)
+
+    for i in range(n):
+        current_sum = 0
+        for j in range(i, n):
+            current_sum += nums[j]      # compute sum for subarray nums[i:j+1]
+            max_sum = max(max_sum, current_sum)
+
+    return max_sum
+
+
+"""
+------------------------------------------------------------
+⚡ Optimized Approach (Kadane’s Algorithm):
+- Instead of recomputing sums, decide at each index:
+      Should I continue the previous subarray OR start a new one?
+- Keep track of:
+      current_sum → best sum ending here
+      max_sum     → best seen so far
+- This uses dynamic programming logic.
+
+Key Idea:
+current_sum = max(nums[i], current_sum + nums[i])
+max_sum = max(max_sum, current_sum)
+------------------------------------------------------------
+
+🚀 Optimized Solution (O(n), Kadane's Algorithm)
+"""
+
+def max_subarray_optimized(nums):
+    current_sum = nums[0]
+    max_sum = nums[0]
+
+    for num in nums[1:]:
+        # either extend existing subarray or start new one
+        current_sum = max(num, current_sum + num)
+        max_sum = max(max_sum, current_sum)
+
+    return max_sum
+
+
+"""
+------------------------------------------------------------
+📊 Time & Space Complexity:
+
+Naive Approach:
+- Time Complexity:   O(n²)
+- Space Complexity:  O(1)
+
+Optimized Approach (Kadane’s):
+- Time Complexity:   O(n)
+- Space Complexity:  O(1)
+------------------------------------------------------------
+"""
 ```
 
 ## 🧪 Running Tests
