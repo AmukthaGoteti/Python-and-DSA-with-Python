@@ -57,7 +57,7 @@ It combines three pillars:
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/amuktha-goteti/Python-and-DSA-with-Python.git
+git clone https://github.com/AmukthaGoteti/Python-and-DSA-with-Python.git
 cd <your-repo-name>
 ```
 
