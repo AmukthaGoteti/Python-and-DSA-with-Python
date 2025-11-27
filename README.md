@@ -61,16 +61,6 @@ git clone https://github.com/amuktha-goteti/Python-and-DSA-with-Python.git
 cd <your-repo-name>
 ```
 
-### 3. Create & Activate a Virtual Environment (Optional but Recommended)
-
-```bash
-python -m venv venv
-# Windows
-venv\Scripts\activate
-# macOS / Linux
-source venv/bin/activate
-```
-
 ## 🧩 Problem-Solving Workflow
 
 In `problems/` you’ll typically see a structure like:
