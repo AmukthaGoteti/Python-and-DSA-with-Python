@@ -27,8 +27,8 @@
 │   ├── medium/
 │   └── hard/
 │
-├── Theory-&-Conceptual-Understanding/
-│   └── Theory-&-Conceptual-Understanding.txt
+├── Theory-and-Conceptual-Understanding/
+│   └── Theory-and-Conceptual-Understanding.txt
 │
 ├── Interview-Readiness-Tasks/
 │   ├── HR-+-Behavioural-Questions.txt
