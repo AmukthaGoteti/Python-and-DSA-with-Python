@@ -16,7 +16,6 @@ It combines three pillars:
 - Practice **problem solving** with clean, well-documented Python code.
 - Use this repo as a **reference + practice hub** for interviews and contests.
 
-
 ## 📂 Repository Structure
 
 ```bash
