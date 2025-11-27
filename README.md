@@ -1,3 +1,13 @@
+# Python & DSA — Structured Learning + Interview Preparation
+
+This repository provides a complete, streamlined workflow to learn **Python**, master **Data Structures & Algorithms (DSA)**, strengthen **core CS concepts**, and prepare effectively for **technical interviews**.
+
+It combines three pillars:
+
+1. **Hands-on Python + DSA coding**
+2. **Theory & conceptual understanding**
+3. **Interview-readiness practice**
+
 ## 🎯 Objectives
 
 - Build a **strong foundation in Python**.
@@ -6,7 +16,6 @@
 - Practice **problem solving** with clean, well-documented Python code.
 - Use this repo as a **reference + practice hub** for interviews and contests.
 
----
 
 ## 📂 Repository Structure
 
@@ -39,8 +48,6 @@
 │
 └── README.md
 ```
-
----
 
 ## 🚀 Getting Started
 
