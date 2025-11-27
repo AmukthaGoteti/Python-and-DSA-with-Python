@@ -10,12 +10,13 @@
 
 ## 📂 Repository Structure
 
+```bash
 ├── python-and-dsa/
 │   ├── week-1
-│   |    ├── Python_Keywords.py
-│   |    ├── Python_Output.py
-│   |    ├── Python_Input.py
-│   |    ├── ...
+│   │    ├── Python_Keywords.py
+│   │    ├── Python_Output.py
+│   │    ├── Python_Input.py
+│   │    └── ...
 │   ├── week-2
 │   ├── week-3
 │   ├── week-4
@@ -27,16 +28,17 @@
 │   └── hard/
 │
 ├── Theory-&-Conceptual-Understanding/
-│   ├── Theory-&-Conceptual-Understanding.txt
-|
+│   └── Theory-&-Conceptual-Understanding.txt
+│
 ├── Interview-Readiness-Tasks/
 │   ├── HR-+-Behavioural-Questions.txt
-│   ├── Technical-Communication Tasks.txt
+│   ├── Technical-Communication-Tasks.txt
 │   ├── “Think Loud”-Exercises.txt
 │   ├── Puzzles.txt
-│   ├── Resume-Revision-Checklist.txt
-|
+│   └── Resume-Revision-Checklist.txt
+│
 └── README.md
+```
 
 ---
 
