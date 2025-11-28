@@ -9,3 +9,7 @@ for lang in languages:
     print('-----')
 # end of the for loop
 print('Last statement')
+language = 'Python'
+# Iterate over each character in the string
+for x in language:
+    print(x)
