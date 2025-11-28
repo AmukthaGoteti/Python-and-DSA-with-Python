@@ -31,3 +31,12 @@ res = chain(range(5), range(10, 20, 2))
 for i in res:
     print(i, end=" ")
 print()
+ele = range(10)[0]
+print('First element: ', ele)
+ele = range(10)[-1]
+print('Last element: ', ele)
+ele = range(10)[4]
+print('Fifth element: ', ele)
+fruits = ['apple', 'banana', 'cherry', 'date']
+for i in range(len(fruits)):
+    print(fruits[i])
