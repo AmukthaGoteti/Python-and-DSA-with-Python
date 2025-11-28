@@ -16,3 +16,11 @@ print()
 for i in range(0, 10, 2):
     print(i, end=" ")
 print()
+# Increamented by 4
+for i in range(0, 30, 4):
+    print(i, end=" ")
+print()
+# incremented bt -2
+for i in range(25, 2, -2):
+    print(i, end=" ")
+print()
