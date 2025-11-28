@@ -13,3 +13,11 @@ language = 'Python'
 # Iterate over each character in the string
 for x in language:
     print(x)
+# Iterate over a range of numbers from 0 to 4
+for i in range (0,4):
+    print(i)
+languages = ['Swift', 'Python', 'Go', 'C++']
+for lang in languages:
+    if lang == 'Go':
+        break
+    print(lang)
