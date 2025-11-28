@@ -26,3 +26,11 @@ for lang in languages:
     if lang == 'Go':
         continue
     print(lang)
+# Outer Loop
+attributes = ['Electric', 'Fast']
+cars = ['Tesla', 'BMW', 'Audi']
+for attribute in attributes:
+    for car in cars:
+        print(attribute, car)
+    # This statement is outside the inner loop
+    print('-----')
