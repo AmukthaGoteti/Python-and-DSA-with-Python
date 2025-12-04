@@ -9,3 +9,7 @@ while number != 0:
     print(f'You entered {number}')
     number = int(input("Enter a number: "))
 print('The End')
+age = 32
+# The Test Condition is always True
+while age > 18:
+    print('You can vote')
