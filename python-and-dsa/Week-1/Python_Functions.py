@@ -15,3 +15,14 @@ def add_numbers(num1, num2):
     print("Sum:", sum)
 # function call with two values
 add_numbers(5, 4)
+# Function Defination
+def find_Square(num):
+    square = num * num
+    return square
+# Function Call
+square = find_Square(3)
+print("Square:", square)
+def future_function():
+    pass
+# This will execute without any action or error
+future_function()
