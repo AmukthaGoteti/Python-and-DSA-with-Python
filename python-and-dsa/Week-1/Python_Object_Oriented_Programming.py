@@ -14,3 +14,18 @@ parrot2.age = 15
 # Access Attributes
 print(f"{parrot1.name} is {parrot1.age} years old.")
 print(f"{parrot2.name} is {parrot2.age} years old.")
+# Base Class
+class Aninmal:
+    def eat(self):
+        print("Eating")
+    def sleep(self):
+        print("Sleeping")
+# Derived Class
+class Dog(Aninmal):
+    def bark(self):
+        print("Barking")
+# Create Dog object
+dog1 = Dog()
+dog1.bark()
+dog1.eat()
+dog1.sleep()
