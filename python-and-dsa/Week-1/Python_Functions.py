@@ -26,3 +26,10 @@ def future_function():
     pass
 # This will execute without any action or error
 future_function()
+import math
+# sqrt computes the square root
+square_root = math.sqrt(4)
+print("Square Root of 4 is", square_root)
+# pow() computes the power
+power = math.pow(2, 3)
+print("2 raised to the power 3 is", power)
