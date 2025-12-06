@@ -44,3 +44,21 @@ c.sell()
 # Using setter function
 c.setMaxPrice(1000)
 c.sell()
+class Polygon:
+    # method to render a shape
+    def render(self):
+        print("Rendering Polygon")
+class Square(Polygon):
+    # Rnedering Square
+    def render(self):
+        print("Rendering Square")
+class Circle(Polygon):
+    # Rnedering Circle
+    def render(self):
+        print("Rendering Circle")
+# Create objects
+s1 = Square()
+s1.render()
+# Creat6e an object of Circle
+c1 = Circle()
+c1.render()
