@@ -20,3 +20,17 @@ class solution:
         print("Geeks\nfor\nGeeks")
 solution = solution()
 solution.new_line()
+# Practice Problem 4
+# Leap Year
+class Solution:
+    def checkYear(self, n):
+        if (n % 4 == 0 and n % 100 != 0) or (n % 400 == 0):
+            return True
+        else:
+            return False
+n = int(input())
+solution = Solution()
+if (solution.checkYear(n)):
+    print("True")
+else:
+    print("False")
