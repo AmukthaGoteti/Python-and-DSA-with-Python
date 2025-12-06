@@ -13,3 +13,10 @@ class solution:
 solution = solution()
 a, b, c = input().split()
 solution.print_values(a, b, c)
+# Practice Problem 3
+# The New Line
+class solution:
+    def new_line(self):
+        print("Geeks\nfor\nGeeks")
+solution = solution()
+solution.new_line()
