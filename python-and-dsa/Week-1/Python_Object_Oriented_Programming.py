@@ -29,3 +29,18 @@ dog1 = Dog()
 dog1.bark()
 dog1.eat()
 dog1.sleep()
+class computer:
+    def __init__(self):
+        self.__maxprice = 900
+    def sell(self):
+        print(f"selling Price: {self.__maxprice}")
+    def setMaxPrice(self, price):
+        self.__maxprice = price
+c = computer()
+c.sell()
+# change the price
+c.setMaxPrice(1000)
+c.sell()
+# Using setter function
+c.setMaxPrice(1000)
+c.sell()
