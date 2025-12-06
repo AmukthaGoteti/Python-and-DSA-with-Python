@@ -34,3 +34,19 @@ if (solution.checkYear(n)):
     print("True")
 else:
     print("False")
+# Practice Problem 5
+# Count Odd and Even (in given array)
+class Solution:
+    def countOddEven(self, arr):
+        odd_count = 0
+        even_count = 0
+        for i in range(len(arr)):
+            if arr[i] % 2 == 0:
+                even_count += 1
+            else:
+                odd_count += 1
+        return odd_count, even_count
+arr = list(map(int, input().split()))
+solution = Solution()
+odd_count, even_count = solution.countOddEven(arr)
+print(odd_count, even_count)
