@@ -1,3 +1,4 @@
+# Full pyramid Pattern in Python
 # Function to print full pyramid pattern
 def full_pyramid(n):
     for i in range(1, n + 1):
@@ -87,3 +88,5 @@ def hallow_pyramid(n):
 n = int(input("Enter the number of rows for the hollow pyramid: "))
 # Print the hollow pyramid pattern
 hallow_pyramid(n)
+
+# Half pyramid Pattern in Python
