@@ -45,3 +45,17 @@ for i in range(0,n):
         alph += 1
     alph = 65
     print()
+# Pyramid Patterns in Python with Numbers
+def print_number_pyramid(rows):
+    for i in range(1, rows + 1):
+        # Print Spaces
+        for j in range(rows - i):
+            print(" ", end="")
+        # Print Numbers
+        for j in range(2 * i  - 1):
+            print(j + 1, end="")
+        # Move to the next line after each row
+        print()
+# Example usage
+num_rows = int(input("Enter the number of rows for the number pyramid: "))
+print_number_pyramid(num_rows) 
