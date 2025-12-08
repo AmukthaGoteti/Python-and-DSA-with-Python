@@ -35,3 +35,13 @@ def print_pyramid(n, current_row = 1):
 n = int(input("Enter the number of rows for the pyramid: "))
 # Print the pyramid pattern
 print_pyramid(n)
+# Pyramid Pattern in Python with Alphabet
+n = 5
+alph = 65
+for i in range(0,n):
+    print(" " * (n - i), end=" ")
+    for j in range(0, i + 1):
+        print(chr(alph + j), end=" ")
+        alph += 1
+    alph = 65
+    print()
