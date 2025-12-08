@@ -59,3 +59,19 @@ def print_number_pyramid(rows):
 # Example usage
 num_rows = int(input("Enter the number of rows for the number pyramid: "))
 print_number_pyramid(num_rows)
+# Function to print inverted full Pyramid pattern
+def inverted_full_pyramid(n):
+    # Outer loop for the number of rows
+    for i in range(n, 0, -1):
+        # Inner loop for leading spaces
+        for j in range(n - i):
+            print(" ", end="")
+        # Inner loop for printing asterisks
+        for k in range(2 * i - 1):
+            print("*", end=" ")
+        # Move to the next line after each row
+        print()
+# Set the number of rows for the inverted pyramid
+n = int(input("Enter the number of rows for the inverted pyramid: "))
+# Print the inverted pyramid pattern
+inverted_full_pyramid(n)
