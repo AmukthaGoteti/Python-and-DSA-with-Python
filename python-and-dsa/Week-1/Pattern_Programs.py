@@ -58,4 +58,4 @@ def print_number_pyramid(rows):
         print()
 # Example usage
 num_rows = int(input("Enter the number of rows for the number pyramid: "))
-print_number_pyramid(num_rows) 
+print_number_pyramid(num_rows)
