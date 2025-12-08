@@ -9,3 +9,29 @@ def full_pyramid(n):
             print("*", end=" ")
         print()
 full_pyramid(5)
+# Full Pyramid Pattern in Python Recursion
+def print_space(space):
+    if space > 0:
+        print(" ", end="")
+        print_space(space - 1)
+def print_star(star):
+    if star > 0:
+        print("*", end="")
+        print_star(star - 1)
+def print_pyramid(n, current_row = 1):
+    if current_row > n:
+        return
+    spaces = n - current_row
+    stars = 2 * current_row - 1
+    # Print Spaces
+    print_space(spaces)
+    # Print Stars
+    print_star(stars)
+    # Move to next line for the next row
+    print()
+    # Print the pyramid for the next row
+    print_pyramid(n, current_row + 1)
+# Set the number of rows for the pyramid
+n = int(input("Enter the number of rows for the pyramid: "))
+# Print the pyramid pattern
+print_pyramid(n)
