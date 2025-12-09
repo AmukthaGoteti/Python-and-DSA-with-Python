@@ -110,3 +110,24 @@ def print_half_pyramid(n):
 n = int(input("Enter the number of rows for the half pyramid (recursion): "))
 # Print the half pyramid pattern using recursion
 print_half_pyramid(n)
+# Half Pyramid Pattern in Python with Numbers
+# Function to demonstrate printing pattern of numbers
+def numpat(n):
+    # intializing starting number
+    num = 1
+    # Outer loop for number of rows
+    for i in range(0, n):
+        # re assigning num
+        num = 1
+        # Inner loop to handle number of coloums
+            # Values changing according to outer loop
+        for j in range(0, i + 1):
+            # Printing number
+            print(num, end=" ")
+            # Incrementing number
+            num = num + 1
+        # Ending line after each row
+        print()
+# Driver Code
+n = int(input("Enter the number of rows for the number half pyramid: "))
+numpat(n)
