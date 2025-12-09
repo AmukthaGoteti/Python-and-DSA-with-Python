@@ -131,3 +131,24 @@ def numpat(n):
 # Driver Code
 n = int(input("Enter the number of rows for the number half pyramid: "))
 numpat(n)
+# Half Pyramid Pattern in Python with Alphabet
+# Function to demonstrate printing pattern of alphabets
+def alphapat(n):
+    # initializing value corresponding to 'A'
+    num = 65
+    # Outer loop for number of rows
+    for i in range(0, n):
+        # inner loop to handle number of coloums
+            # Values changing according to outer loop
+        for j in range(0, i + 1):
+            # Expliciy converting to char
+            ch = chr(num)
+            # Printing char
+            print(ch, end=" ")
+        # Increament number
+        num = num + 1
+        # Ending line after each row
+        print("\r")
+# Driver Code
+n = int(input("Enter the number of rows for the half pyramid with alphabets: "))
+alphapat(n)
