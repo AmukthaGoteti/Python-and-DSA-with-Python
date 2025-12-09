@@ -99,3 +99,14 @@ def half_pyramid(n):
 # Example usage
 num_rows = int(input("Enter the number of rows for the half pyramid: "))
 half_pyramid(num_rows)
+#Half Pyramid Pattern in Python Recursion
+def print_half_pyramid(n):
+    if n > 0:
+        # Call the function recursively with smaller value of n
+        print_half_pyramid(n - 1)
+        # Print '*' characters for the current row
+        print("* " * n)
+# Set the number of rows for the half pyramid
+n = int(input("Enter the number of rows for the half pyramid (recursion): "))
+# Print the half pyramid pattern using recursion
+print_half_pyramid(n)
