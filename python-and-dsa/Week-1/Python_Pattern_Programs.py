@@ -152,3 +152,13 @@ def alphapat(n):
 # Driver Code
 n = int(input("Enter the number of rows for the half pyramid with alphabets: "))
 alphapat(n)
+# Inverted Half Pyramid Pattern in Python
+# Function to print inverted half pyramid pattern
+def inverted_half_pyramid(n):
+    for i in range(n, 0, -1):
+        for j in range(1, i + 1):
+            print("* ", end=" ")
+        print()
+# Example usage
+num_rows = int(input("Enter the number of rows for the inverted half pyramid: "))
+inverted_half_pyramid(num_rows)
