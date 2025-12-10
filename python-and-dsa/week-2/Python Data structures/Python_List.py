@@ -10,3 +10,9 @@ print(student)
 # An empty List
 empty_list = []
 print(empty_list)
+# Accessing List Items
+languages = ['Python', 'Swift', 'C++']
+# Access the 1st element
+print("Languages[0]: ", languages[0])
+# Access the 3rd element
+print("Languages[2]: ", languages[2])
