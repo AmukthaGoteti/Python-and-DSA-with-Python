@@ -22,3 +22,12 @@ languages = ['Python', 'Swift', 'C++']
 print("Languages[-1]: ",languages[-1])
 # Access the third last element
 print("Languages[-3]: ",languages[-3])
+# Slicing a List
+my_list = ['p', 'r', 'o', 'g', 'r', 'a', 'm']
+print("my_list = ", my_list)
+# elements from index 2 to index 4
+print("my_list[2:5] = ", my_list[2:5])
+# elements from index 2 to index -3
+print("my_list[2:-3] = ", my_list[2:-2])
+# elements from the beginning to index 2
+print("my_list[0:3] = ", my_list[0:3])
