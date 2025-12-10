@@ -13,6 +13,12 @@ print(empty_list)
 # Accessing List Items
 languages = ['Python', 'Swift', 'C++']
 # Access the 1st element
-print("Languages[0]: ", languages[0])
+print("Languages[0]: ",languages[0])
 # Access the 3rd element
-print("Languages[2]: ", languages[2])
+print("Languages[2]: ",languages[2])
+# Negative Indexing
+languages = ['Python', 'Swift', 'C++']
+# Access the last element
+print("Languages[-1]: ",languages[-1])
+# Access the third last element
+print("Languages[-3]: ",languages[-3])
