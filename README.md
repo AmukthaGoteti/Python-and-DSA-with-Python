@@ -20,14 +20,14 @@ It combines three pillars:
 
 ```bash
 ├── python-and-dsa/
-│   ├── week-1
+│   ├── Week-1
 │   │    ├── Python_Keywords.py
 │   │    ├── Python_Output.py
 │   │    ├── Python_Input.py
 │   │    └── ...
-│   ├── week-2
-│   ├── week-3
-│   ├── week-4
+│   ├── Week-2
+│   ├── Week-3
+│   ├── Week-4
 │   └── ...
 │
 ├── problems/
@@ -36,7 +36,12 @@ It combines three pillars:
 │   └── hard/
 │
 ├── Theory-and-Conceptual-Understanding/
-│   └── Theory-and-Conceptual-Understanding.txt
+│   └── Detailed_Notes
+│   │    ├── Python_and_DSA Week_1_Detailed_Notes.pdf
+│   │    └── ...
+│   └── Summary_Notes
+│        ├── Week_1_Summary_Notes.md
+│        └── ...
 │
 ├── Interview-Readiness-Tasks/
 │   ├── HR-+-Behavioural-Questions.txt
