@@ -1,0 +1,33 @@
+# Python Lists
+# Create a list
+# A list of 3 elements
+ages = [19, 29, 29]
+print(ages)
+# List Items of Different Types
+# A list containing strings, numbers and another list
+student = ['Jack', 32, 'Computer Science', [2, 4]]
+print(student)
+# An empty List
+empty_list = []
+print(empty_list)
+# Accessing List Items
+languages = ['Python', 'Swift', 'C++']
+# Access the 1st element
+print("Languages[0]: ",languages[0])
+# Access the 3rd element
+print("Languages[2]: ",languages[2])
+# Negative Indexing
+languages = ['Python', 'Swift', 'C++']
+# Access the last element
+print("Languages[-1]: ",languages[-1])
+# Access the third last element
+print("Languages[-3]: ",languages[-3])
+# Slicing a List
+my_list = ['p', 'r', 'o', 'g', 'r', 'a', 'm']
+print("my_list = ", my_list)
+# elements from index 2 to index 4
+print("my_list[2:5] = ", my_list[2:5])
+# elements from index 2 to index -3
+print("my_list[2:-3] = ", my_list[2:-2])
+# elements from the beginning to index 2
+print("my_list[0:3] = ", my_list[0:3])
