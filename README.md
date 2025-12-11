@@ -36,7 +36,7 @@ It combines three pillars:
 │   └── hard/
 │
 ├── Theory-and-Conceptual-Understanding/
-│   └── Detailed_Notes
+│   ├── Detailed_Notes
 │   │    ├── Python_and_DSA Week_1_Detailed_Notes.pdf
 │   │    └── ...
 │   └── Summary_Notes
