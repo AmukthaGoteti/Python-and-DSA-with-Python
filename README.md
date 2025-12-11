@@ -63,7 +63,7 @@ It combines three pillars:
 
 ```bash
 git clone https://github.com/amuktha-goteti/Python-and-DSA-with-Python.git
-cd <your-repo-name>
+cd Python-and-DSA-with-Python
 ```
 
 ## 🧩 Problem-Solving Workflow
