@@ -31,3 +31,12 @@ print("my_list[2:5] = ", my_list[2:5])
 print("my_list[2:-3] = ", my_list[2:-2])
 # elements from the beginning to index 2
 print("my_list[0:3] = ", my_list[0:3])
+# Omiting Start and ending Indices in slicing
+my_list = ['p', 'r', 'o', 'g', 'r', 'a', 'm']
+# get a list with items from index 5 to last
+print("my_list[5:] = ", my_list[5:])
+# get a list from the first item toindex -5
+print("my_list[:-4] = ", my_list[:-4])
+# ommiting both start and end index
+# get a list from start to end items
+print("my_list[:] = ", my_list[:])
