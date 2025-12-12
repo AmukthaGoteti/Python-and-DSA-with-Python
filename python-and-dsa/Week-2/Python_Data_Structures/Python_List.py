@@ -91,3 +91,17 @@ print("Number of cars: ", len(cars))
 fruits = ['Apple', 'Banana', 'Orange']
 for fruit in fruits:
     print(fruit)
+"""
+    Method	    Description
+    append()	Adds an item to the end of the list
+    extend()	Adds items of lists and other iterables to the end of the list
+    insert()	Inserts an item at the specified index
+    remove()	Removes the specified value from the list
+    pop()	    Returns and removes item present at the given index
+    clear()	    Removes all items from the list
+    index()	    Returns the index of the first matched item
+    count()	    Returns the count of the specified item in the list
+    sort()	    Sorts the list in ascending/descending order
+    reverse()	Reverses the item of the list
+    copy()	    Returns the shallow copy of the list
+"""
