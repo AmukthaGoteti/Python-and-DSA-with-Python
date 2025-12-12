@@ -40,3 +40,9 @@ print("my_list[:-4] = ", my_list[:-4])
 # ommiting both start and end index
 # get a list from start to end items
 print("my_list[:] = ", my_list[:])
+# Add Elements to a List
+# Using append() to add an element to the end of the list
+fruits = ['Apple', 'Banana', 'Cherry']
+print("Original List: ", fruits)
+fruits.append('Cherry')
+print("Updated List: ", fruits)
