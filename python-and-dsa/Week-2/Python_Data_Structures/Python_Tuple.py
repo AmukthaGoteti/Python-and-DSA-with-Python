@@ -17,3 +17,8 @@ print("Languages[2]: ", languages[2])
 cars = ('BMW', 'Tesla', 'Ford', 'Toyota')
 print("Length of Tuple: ", len(cars))
 # Output: Length of Tuple:  4
+# Iterate Through a Tuple
+fruits = ('apple','banana','orange')
+# iterate through the tuple
+for fruit in fruits:
+    print(fruit)
