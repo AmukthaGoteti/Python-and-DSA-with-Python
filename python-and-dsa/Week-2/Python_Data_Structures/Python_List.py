@@ -87,3 +87,7 @@ del names
 # Python List Length
 cars = ['BMW', 'Mercedes', 'Tesla']
 print("Number of cars: ", len(cars))
+# Iteratin through the list
+fruits = ['Apple', 'Banana', 'Orange']
+for fruit in fruits:
+    print(fruit)
