@@ -59,3 +59,11 @@ print("Even Numbers: ", even_numbers)
 # adding elements of one list to another
 numbers.extend(even_numbers)
 print("Updated Numbers: ", numbers)
+# Changing List Items
+colors = ['Red', 'Black', 'Green']
+print("Original List: ", colors)
+# change the 1st item to 'purple'
+colors[0] = 'Purple'
+# change the third item to 'blue'
+colors[2] = 'Blue'
+print("Updated List: ", colors)
