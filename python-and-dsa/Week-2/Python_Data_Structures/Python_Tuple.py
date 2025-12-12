@@ -13,3 +13,7 @@ print("Languages[2]: ", languages[2])
 # trying to modify a tuple
 # cars[0] = 'Nissan' -> Error
 # print(cars)
+# Python Tuple Length
+cars = ('BMW', 'Tesla', 'Ford', 'Toyota')
+print("Length of Tuple: ", len(cars))
+# Output: Length of Tuple:  4
