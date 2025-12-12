@@ -84,3 +84,6 @@ print(names)
 del names
 # Error! List doesn't exist
 # print(names) -> Will raise an error
+# Python List Length
+cars = ['BMW', 'Mercedes', 'Tesla']
+print("Number of cars: ", len(cars))
