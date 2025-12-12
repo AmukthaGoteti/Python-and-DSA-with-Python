@@ -46,3 +46,8 @@ fruits = ['Apple', 'Banana', 'Orange']
 print("Original List: ", fruits)
 fruits.append('Cherry')
 print("Updated List: ", fruits)
+# Add an element at a specific position using insert()
+fruits = ['Apple', 'Banana', 'Orange']
+print("Original List: ", fruits)
+fruits.insert(2, 'Cherry')
+print("Updated List: ", fruits)
