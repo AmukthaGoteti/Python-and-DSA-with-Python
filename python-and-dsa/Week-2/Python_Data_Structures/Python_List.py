@@ -67,3 +67,9 @@ colors[0] = 'Purple'
 # change the third item to 'blue'
 colors[2] = 'Blue'
 print("Updated List: ", colors)
+# Removing List Items
+# Using remove() to remove a specific item
+numbers = [2, 4, 7, 9]
+# remove 4 from the list
+numbers.remove(4)
+print(numbers)
