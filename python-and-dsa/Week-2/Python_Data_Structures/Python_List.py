@@ -42,7 +42,7 @@ print("my_list[:-4] = ", my_list[:-4])
 print("my_list[:] = ", my_list[:])
 # Add Elements to a List
 # Using append() to add an element to the end of the list
-fruits = ['Apple', 'Banana', 'Cherry']
+fruits = ['Apple', 'Banana', 'Orange']
 print("Original List: ", fruits)
 fruits.append('Cherry')
 print("Updated List: ", fruits)
