@@ -51,3 +51,11 @@ fruits = ['Apple', 'Banana', 'Orange']
 print("Original List: ", fruits)
 fruits.insert(2, 'Cherry')
 print("Updated List: ", fruits)
+# Add multiple elements to a list using extend()
+numbers = [1, 3, 5]
+print("Number: ", numbers)
+even_numbers = [2, 4, 6]
+print("Even Numbers: ", even_numbers)
+# adding elements of one list to another
+numbers.extend(even_numbers)
+print("Updated Numbers: ", numbers)
