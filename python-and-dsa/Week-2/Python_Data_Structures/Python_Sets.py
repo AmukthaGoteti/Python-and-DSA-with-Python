@@ -9,3 +9,4 @@ print('Vowel Letters: ', vowel_letters)
 # Create a set of Mixed Type
 mixed_set = {'Hello', 101, -2, 'Bye'}
 print('Set of mixed data types: ', mixed_set)
+# When you run this code, you might  get output in different order. This is because the set has no particular order.
