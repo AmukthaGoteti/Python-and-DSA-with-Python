@@ -22,3 +22,17 @@ print('Data type of empty_dictionary:', type(empty_dictionary))
 # Duplicate Items in a Set
 numbers = {2, 4, 6, 6, 2, 8}
 print(numbers)   # {8, 2, 4, 6}
+# Adding and Updating Set Items in Python
+# Add Items to a Set in Python
+numbers = {21, 34, 54, 12}
+print('Initial Set: ', numbers)
+# Using add() method
+numbers.add(32)
+print('Updated Set: ', numbers)
+# Update Python Set
+companies = {'Lactose', 'Ralph Lauren'}
+tech_companies = ['apple', 'google', 'apple']
+# Using update() Method
+companies.update(tech_companies)
+print(companies)
+# Output: {'apple', 'Ralph Lauren', 'Lactose', 'google'}
