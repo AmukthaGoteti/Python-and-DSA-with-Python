@@ -9,4 +9,13 @@ print('Vowel Letters: ', vowel_letters)
 # Create a set of Mixed Type
 mixed_set = {'Hello', 101, -2, 'Bye'}
 print('Set of mixed data types: ', mixed_set)
-# When you run this code, you might  get output in different order. This is because the set has no particular order.
+# When you run code that uses sets, the output may appear in different orders. This happens because a set does not maintain any specific or fixed order of its elements.
+# Create an Empty Set in Python
+# Create an empty set
+empty_set = set()
+# Create an empty dictionary
+empty_dictionary = { }
+# Check data type of empty_set
+print('Data type of empty set: ', type(empty_set))
+# check data type of dictionary_set
+print('Data type of empty_dictionary:', type(empty_dictionary))
