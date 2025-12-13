@@ -36,3 +36,9 @@ tech_companies = ['apple', 'google', 'apple']
 companies.update(tech_companies)
 print(companies)
 # Output: {'apple', 'Ralph Lauren', 'Lactose', 'google'}
+# Removing an Element from a Set
+languages = {'Swift', 'Java', 'Python'}
+print('Initial Set: ', languages)
+# Remove 'Java' from the set
+removedValue = languages.discard('Java')
+print('Set after remove(): ', languages)
