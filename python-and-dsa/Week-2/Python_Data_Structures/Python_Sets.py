@@ -19,3 +19,6 @@ empty_dictionary = { }
 print('Data type of empty set: ', type(empty_set))
 # check data type of dictionary_set
 print('Data type of empty_dictionary:', type(empty_dictionary))
+# Duplicate Items in a Set
+numbers = {2, 4, 6, 6, 2, 8}
+print(numbers)   # {8, 2, 4, 6}
