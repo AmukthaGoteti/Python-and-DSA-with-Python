@@ -54,3 +54,7 @@ print('Set after remove(): ', languages)
     sorted()	    Returns a new sorted list from elements in the set(does not sort the set itself).
     sum()	        Returns the sum of all elements in the set.
 """
+fruits = {"Apple", "Peach", "Mango"}
+# for loop to access each fruits
+for fruit in fruits:
+    print(fruit)
