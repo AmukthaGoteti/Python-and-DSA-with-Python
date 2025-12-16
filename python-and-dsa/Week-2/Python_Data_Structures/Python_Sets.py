@@ -100,3 +100,13 @@ B = {1, 2, 6}
 print('Using ^: ', A ^ B)
 # Using symmetric_difference()
 print('Using symmetric_difference(): ', A.symmetric_difference(B))
+# Check if two sets are equal
+# first set
+A = {1, 3, 5}
+# second set
+B = {3, 5, 1}
+# Perform difference operation using &
+if A == B:
+    print('Set A and Set B are equal')
+else:
+    print('Set A and Set B are not equal')
