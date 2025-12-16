@@ -65,7 +65,7 @@ print("Set: ", even_numbers)
 print("Total Elements: ", len(even_numbers))
 # Python Set Operations
 # Uinion of two sets
-# first set
+# First set
 A = {1, 3, 5}
 # Second set
 B = {0, 2, 4}
@@ -73,3 +73,12 @@ B = {0, 2, 4}
 print("Union using |: ", A | B)
 # Perform union operation using union()
 print("union using union(): ", A.union(B))
+# Set Intersection
+# First Set
+A = {1, 3, 5}
+# Second Set
+B = {1, 2, 3}
+# Perform Intersection operation using &
+print('Intersction usin &: ', A & B)
+# Perform Intersection using intersection()
+print('Intersection using intersection(): ', A.intersection(B))
