@@ -63,3 +63,13 @@ even_numbers = {2, 4, 6, 8}
 print("Set: ", even_numbers)
 # Find number of elements
 print("Total Elements: ", len(even_numbers))
+# Python Set Operations
+# Uinion of two sets
+# first set
+A = {1, 3, 5}
+# Second set
+B = {0, 2, 4}
+# Perform union operationusing |
+print("Union using |: ", A | B)
+# Perform union operation using union()
+print("union using union(): ", A.union(B))
