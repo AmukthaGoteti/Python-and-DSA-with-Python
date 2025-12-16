@@ -91,3 +91,12 @@ B = {1, 2, 6}
 print('Difference using &: ', A - B)
 # perform difference operation using difference()
 print('Difference using difference(): ', A.difference(B))
+# Set Symmetric Difference
+# first set
+A = {2, 3, 5}
+# second set
+B = {1, 2, 6}
+# perform differnece operation using &
+print('Using ^: ', A ^ B)
+# Using symmetric_difference()
+print('Using symmetric_difference(): ', A.symmetric_difference(B))
