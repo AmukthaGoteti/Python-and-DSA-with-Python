@@ -80,6 +80,106 @@ patterns = {
     r'(.*) resume': [
         "A strong resume highlights skills, achievements, and experience clearly."
     ],
+    # --- Emotional States ---
+    r'(.*) lonely': [
+        "I'm here with you. You don't have to feel alone.",
+        "Loneliness can be tough. Would you like to talk about what's been going on?"
+    ],
+    r'(.*) tired|exhausted': [
+        "It sounds like you need some rest. Have you been overworking yourself?",
+        "Being tired can affect your mood. A short break might help."
+    ],
+    r'(.*) angry|frustrated': [
+        "That sounds frustrating. Want to tell me what happened?",
+        "It's okay to feel angry sometimes. Let's talk it through."
+    ],
+    r'(.*) scared|afraid': [
+        "That sounds scary. You're safe here—what's worrying you?",
+        "Fear is natural. Talking about it can help."
+    ],
+    r'(.*) confused': [
+        "That's okay—confusion is part of learning. What's unclear?",
+        "Let’s break it down together."
+    ],
+
+    # --- Motivation & Encouragement ---
+    r'(.*) motivation|motivated': [
+        "You're doing better than you think. Keep going.",
+        "Small steps still move you forward."
+    ],
+    r'(.*) give up|quit': [
+        "It’s okay to feel this way, but don’t give up just yet.",
+        "You’ve come this far. What’s making you feel like quitting?"
+    ],
+    r'(.*) confidence': [
+        "Confidence grows with practice. You're capable.",
+        "Believe in your progress, even if it feels slow."
+    ],
+
+    # --- Health & Wellness ---
+    r'(.*) stress|burnout': [
+        "Burnout is a sign you’ve been pushing hard. Rest matters too.",
+        "Taking care of yourself is not a weakness."
+    ],
+    r'(.*) sleep|insomnia': [
+        "Sleep is important for both mind and body.",
+        "Have you tried relaxing before bedtime?"
+    ],
+    r'(.*) exercise|workout': [
+        "Exercise is a great habit. Do you prefer home workouts or outdoor activities?"
+    ],
+
+    # --- Study & Learning ---
+    r'(.*) study|studying': [
+        "Studying consistently beats cramming. What are you learning right now?",
+        "Want help creating a study plan?"
+    ],
+    r'(.*) exam|test': [
+        "Exams can be stressful. Preparation and calm thinking help a lot.",
+        "You've got this—one step at a time."
+    ],
+    r'(.*) coding|programming': [
+        "Coding improves with practice. What language are you working with?",
+        "Debugging is part of the process—keep going."
+    ],
+
+    # --- Technology ---
+    r'(.*) python': [
+        "Python is a powerful and beginner-friendly language.",
+        "Are you learning Python for projects or interviews?"
+    ],
+    r'(.*) ai|artificial intelligence': [
+        "AI is transforming many industries. Are you curious about learning it?"
+    ],
+    r'(.*) machine learning': [
+        "Machine learning is exciting! It combines math, coding, and logic."
+    ],
+
+    # --- Daily Conversation ---
+    r'(.*) morning': [
+        "Good morning! I hope you have a great day ahead."
+    ],
+    r'(.*) night': [
+        "Good night! Rest well and take care."
+    ],
+    r'(.*) weekend': [
+        "Weekends are perfect for rest or hobbies. Any plans?"
+    ],
+
+    # --- Gratitude & Politeness ---
+    r'(.*) appreciate|grateful': [
+        "That’s very kind of you. I appreciate it.",
+        "I'm glad I could help."
+    ],
+
+    # --- Fallback Casual ---
+    r'(.*) joke': [
+        "Why do programmers prefer dark mode? Because light attracts bugs!",
+        "I would tell you a UDP joke, but you might not get it."
+    ],
+    r'(.*) bored': [
+        "Boredom happens. Want to chat, learn something new, or hear a joke?"
+    ]
 }
 
 # Create a function to respond to user input
