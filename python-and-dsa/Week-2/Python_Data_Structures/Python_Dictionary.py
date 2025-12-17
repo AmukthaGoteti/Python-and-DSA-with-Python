@@ -71,3 +71,14 @@ print(len(numbers))            # Output: 3
 countries = {}
 # get dictionary's length
 print(len(countries))          # Output: 0
+"""
+    Function	    Description
+    pop()	        Removes the item with the specified key.
+    update()	    Adds or changes dictionary items.
+    clear()	        Remove all the items from the dictionary.
+    keys()	        Returns all the dictionary's keys.
+    values()	    Returns all the dictionary's values.
+    get()	        Returns the value of the specified key.
+    popitem()	    Returns the last inserted key and value as a tuple.
+    copy()	        Returns a copy of the dictionary.
+"""
