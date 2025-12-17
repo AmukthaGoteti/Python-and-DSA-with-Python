@@ -24,3 +24,18 @@ country_capitals = {
 # Add an item with "Italy" as key and "Rome" as its value
 country_capitals["Italy"] = "Rome"
 print(country_capitals)
+# Remove Dictionary Items
+country_capitals = {
+    "Germany" : "Berlin",
+    "Canada" : "Ottawa"
+}
+# delete item having "Germany" key
+del country_capitals["Germany"]
+print(country_capitals)
+country_capitals = {
+    "Germany" : "Berlin",
+    "Canada" : "Ottawa",
+}
+# Clear the dictionary
+country_capitals.clear()
+print(country_capitals)
