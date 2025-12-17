@@ -56,7 +56,7 @@ By working through this repository, you will:
 │   │    ├── Tic_Tac_toe.py
 │   │    └── README.md
 │   ├── Project_2/
-│   │    ├── Project_2.py
+│   │    ├── Emotional_Support_Chatbot.py
 │   │    └── README.md
 │   └── ...
 │
