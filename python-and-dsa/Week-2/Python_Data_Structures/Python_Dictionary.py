@@ -16,3 +16,11 @@ country_capitals = {
 # Printing the values of keys
 print(country_capitals["Germany"])
 print(country_capitals["England"])
+# Add items to a dictionary
+country_capitals = {
+    "Germany" : "Berlin",
+    "Canada" : "Ottawa",
+}
+# Add an item with "Italy" as key and "Rome" as its value
+country_capitals["Italy"] = "Rome"
+print(country_capitals)
