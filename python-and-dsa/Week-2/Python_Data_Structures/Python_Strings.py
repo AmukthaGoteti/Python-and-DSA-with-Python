@@ -65,3 +65,13 @@ print('at' not in 'battle')
 greet = "Hello"
 # count length of greet string
 print(len(greet))
+# Escape Sequence in Python
+""" 
+example = "He said, "What's there?""
+print(example) # Throws error 
+"""
+# Escape double quotes
+Example = "He said, \"what's there?\""
+# Escape single quotes
+Example = 'He said, "What\'s there?"'
+print(Example)
