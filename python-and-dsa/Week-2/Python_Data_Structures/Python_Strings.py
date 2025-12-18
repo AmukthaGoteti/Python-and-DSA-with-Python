@@ -15,3 +15,7 @@ print(message)
 greet = 'Hello'
 # Access 1st index element
 print(greet[1])
+# Negative Indexing
+greet = 'Hello'
+# Access 4th last element
+print(greet[-4])
