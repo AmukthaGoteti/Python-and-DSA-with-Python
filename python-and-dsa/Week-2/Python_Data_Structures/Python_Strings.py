@@ -58,3 +58,6 @@ greet = 'Hello'
 # iterate throudh greet
 for letter in greet:
     print(letter)
+# String membership test
+print('a' in 'program')
+print('at' not in 'battle')
