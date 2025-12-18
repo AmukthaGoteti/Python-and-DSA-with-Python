@@ -6,8 +6,6 @@ This project focuses on the **analysis, detection, and correction of hazards in 
 
 The system is designed to bridge **digital logic theory** and **practical simulation**, providing a clear, structured approach to understanding static and dynamic hazards.
 
----
-
 ## Project Description
 
 The **Hazard Detector and Simulator** accepts a Boolean function (expression or minterms), generates its truth table,simulates adjacent input transitions, and detects hazards caused by unequal propagation delays.
@@ -19,8 +17,6 @@ The system identifies:
 
 It also suggests corrective measures, such as **adding consensus terms**, to achieve hazard-free logic.
 
----
-
 ## Functional Requirements
 
 - Accept Boolean expressions or minterm lists as input  
@@ -29,8 +25,6 @@ It also suggests corrective measures, such as **adding consensus terms**, to ach
 - Identify static-1, static-0, and dynamic hazards  
 - Recommend logic corrections (e.g., consensus terms)  
 - Optionally visualize hazard waveforms using Python plotting libraries  
-
----
 
 ## Deliverables
 
@@ -45,8 +39,6 @@ A high-level diagram illustrating the system architecture, including:
 - Correction Suggestion Module  
 - Optional Waveform Visualization Module  
 
----
-
 ### 2. Detailed Design
 
 The design documentation covers:
@@ -60,15 +52,11 @@ The design documentation covers:
 - Python code structure with flowcharts or pseudocode  
 - Example cases demonstrating hazard detection and correction  
 
----
-
 ### 3. Timing Analysis
 
 - Waveform-style plots showing output behavior during transitions  
 - Clear indication of glitches and their durations  
 - Before-and-after comparison demonstrating hazard removal  
-
----
 
 ### 4. Design Documentation
 
@@ -82,15 +70,11 @@ Includes:
   - Integration with professional logic simulators  
   - Extension to multilevel combinational circuits  
 
----
-
 ## Tools & Technologies
 
 - **Python 3**
 - Boolean logic handling libraries (optional)
 - `matplotlib` for waveform visualization (optional)
-
----
 
 ## Conclusion
 
