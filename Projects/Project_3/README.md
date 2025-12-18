@@ -8,16 +8,6 @@ The system is designed to bridge **digital logic theory** and **practical simula
 
 ---
 
-## Learning Outcomes
-
-By completing this project, you will be able to:
-
-- Analyze and detect hazards in combinational logic systems  
-- Apply Python-based simulation to validate digital circuit behavior  
-- Document logic evaluation, hazard detection techniques, and corrective strategies  
-
----
-
 ## Project Description
 
 The **Hazard Detector and Simulator** accepts a Boolean function (expression or minterms), generates its truth table,simulates adjacent input transitions, and detects hazards caused by unequal propagation delays.
@@ -44,7 +34,7 @@ It also suggests corrective measures, such as **adding consensus terms**, to ach
 
 ## Deliverables
 
-### 1. System Block Diagram (3 Marks)
+### 1. System Block Diagram
 
 A high-level diagram illustrating the system architecture, including:
 
@@ -57,7 +47,7 @@ A high-level diagram illustrating the system architecture, including:
 
 ---
 
-### 2. Detailed Design (8 Marks)
+### 2. Detailed Design
 
 The design documentation covers:
 
@@ -72,7 +62,7 @@ The design documentation covers:
 
 ---
 
-### 3. Timing Analysis (2 Marks)
+### 3. Timing Analysis
 
 - Waveform-style plots showing output behavior during transitions  
 - Clear indication of glitches and their durations  
@@ -80,7 +70,7 @@ The design documentation covers:
 
 ---
 
-### 4. Design Documentation (2 Marks)
+### 4. Design Documentation
 
 Includes:
 
