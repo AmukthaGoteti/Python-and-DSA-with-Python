@@ -10,3 +10,8 @@ name = "Python"
 print(name)
 message = "I love Python"
 print(message)
+# Access String Characters in Python
+# Indexing
+greet = 'Hello'
+# Access 1st index element
+print(greet[1])
