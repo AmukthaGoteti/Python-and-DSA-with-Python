@@ -33,3 +33,9 @@ message = 'Hola Amigos'
 # Assign new string to message variable
 message = 'Hello Friends'
 print(message)
+# Multiline String
+message = """
+Never gonna give you up
+Never gonna give you down
+"""
+print(message)
