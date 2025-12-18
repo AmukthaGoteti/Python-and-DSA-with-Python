@@ -46,3 +46,10 @@ str3 = "Hello, World!"
 print(str1 == str2)
 # compare str1 and str3
 print(str1 == str3)
+# Join Two or More Strings
+greet = "Hello, "
+name = "Jack"
+# Using + operator
+result = greet + name
+print(result)
+# Output: Hello, Jack
