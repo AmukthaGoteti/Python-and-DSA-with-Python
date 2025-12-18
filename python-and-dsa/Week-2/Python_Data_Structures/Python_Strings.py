@@ -23,3 +23,9 @@ print(greet[-4])
 greet = 'Hello'
 # Access character from 1st index to 3rd index
 print(greet[1:4])
+# Python Strings are immutable
+""" 
+    message = 'Hola Amigos'
+    message[1] = 'H'
+    print(message)
+"""
