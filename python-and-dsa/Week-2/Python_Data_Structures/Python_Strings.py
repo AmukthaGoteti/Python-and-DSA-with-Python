@@ -19,3 +19,7 @@ print(greet[1])
 greet = 'Hello'
 # Access 4th last element
 print(greet[-4])
+# Slicing
+greet = 'Hello'
+# Access character from 1st index to 3rd index
+print(greet[1:4])
