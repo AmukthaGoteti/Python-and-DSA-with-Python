@@ -75,3 +75,7 @@ Example = "He said, \"what's there?\""
 # Escape single quotes
 Example = 'He said, "What\'s there?"'
 print(Example)
+# Python String Formatting (f-string)
+name = 'Cathy'
+country = 'UK'
+print(f'{name} is from {country}')
