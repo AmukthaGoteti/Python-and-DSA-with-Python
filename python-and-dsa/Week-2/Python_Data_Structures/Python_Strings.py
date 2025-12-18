@@ -34,8 +34,15 @@ message = 'Hola Amigos'
 message = 'Hello Friends'
 print(message)
 # Multiline String
-message = """
-Never gonna give you up
-Never gonna give you down
-"""
+message = """Never gonna give you up
+Never gonna give you down"""
 print(message)
+# Python String Operations
+# Compare Two Strings
+str1 = "Hello, World!"
+str2 = "I love swift"
+str3 = "Hello, World!"
+# compare str1 and str2
+print(str1 == str2)
+# compare str1 and str3
+print(str1 == str3)
