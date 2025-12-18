@@ -53,3 +53,8 @@ name = "Jack"
 result = greet + name
 print(result)
 # Output: Hello, Jack
+# Iterate trough a Python String
+greet = 'Hello'
+# iterate throudh greet
+for letter in greet:
+    print(letter)
