@@ -61,3 +61,7 @@ for letter in greet:
 # String membership test
 print('a' in 'program')
 print('at' not in 'battle')
+# Python string Length
+greet = "Hello"
+# count length of greet string
+print(len(greet))
