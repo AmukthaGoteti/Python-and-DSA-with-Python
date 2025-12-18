@@ -29,3 +29,7 @@ print(greet[1:4])
     message[1] = 'H'
     print(message)
 """
+message = 'Hola Amigos'
+# Assign new string to message variable
+message = 'Hello Friends'
+print(message)
