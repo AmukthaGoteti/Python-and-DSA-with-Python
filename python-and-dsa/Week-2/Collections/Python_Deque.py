@@ -29,3 +29,10 @@ print("After popleft(): ", de)
 # Clear()
 de.clear()
 print("After clear(): ", de)
+import collections
+dq = collections.deque([1, 2, 3, 3, 4, 2, 4])
+# Acessing elements by index
+print(dq[0])
+print(dq[-1])
+# Finding the length of deque
+print(len(dq))
