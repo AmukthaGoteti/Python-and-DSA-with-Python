@@ -17,3 +17,6 @@ print("After extend([50, 60, 70]): ", de)
 # Extendleft (Iterable)
 de.extendleft([-10, -20])
 print("After extendleft([-10, -20]): ", de)
+# Remove Element
+de.remove(70)
+print("After removing 70: ", de)
