@@ -17,6 +17,15 @@ print("After extend([50, 60, 70]): ", de)
 # Extendleft (Iterable)
 de.extendleft([-10, -20])
 print("After extendleft([-10, -20]): ", de)
-# Remove Element
+# Remove Method
 de.remove(70)
 print("After removing 70: ", de)
+# Remove elements from the right
+de.pop()
+print("After pop(): ", de)
+# Remove elements from the left
+de.popleft()
+print("After popleft(): ", de)
+# Clear()
+de.clear()
+print("After clear(): ", de)
