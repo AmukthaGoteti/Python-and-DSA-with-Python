@@ -36,3 +36,17 @@ print(dq[0])
 print(dq[-1])
 # Finding the length of deque
 print(len(dq))
+# Count, Rotation and Reversal of a deque
+from collections import deque
+dq = deque([10, 20, 30, 40, 50, 20, 30, 20])
+# 1. Counting occurrences of an element
+count_20 = dq.count(20)
+print("Count of 20:", count_20)
+# 2. Rotating the deque
+dq.rotate(2)  # Rotate right by 2
+print("After rotating right by 2:", dq)
+dq.rotate(-3)  # Rotate left by 3
+print("After rotating left by 3:", dq)
+# 3. Reversing the deque
+dq.reverse()
+print("After reversing the deque:", dq)
