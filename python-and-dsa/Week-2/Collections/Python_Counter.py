@@ -57,3 +57,13 @@ d = Counter(a = 2, b = 3, c = 6, d = 1, e = 5)
 for i in d.elements():
     print(i, end =" ")
 print()
+# To demonstrate what elements() return when
+# is printed directly
+# import Counter from collections
+from collections import Counter
+# creating a raw data set
+x = Counter("geeksforgeeks")
+# Will return a iterable chain object
+# which is basically a pseudo iterable container whose
+# elements can be used when called wih iterable tool
+print(x.elements())
