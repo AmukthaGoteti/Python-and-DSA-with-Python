@@ -67,3 +67,12 @@ x = Counter("geeksforgeeks")
 # which is basically a pseudo iterable container whose
 # elements can be used when called wih iterable tool
 print(x.elements())
+# When the count of an item in Counter is initialised
+# with negative values or zeros
+# import Counter from collections
+from collections import Counter
+# creting a raw data-set using kewyword arguments
+x = Counter(a = 2, x = 3, b = 3, z = 1, y = 5, c = 0, d = -3)
+# printing out the lements
+for i in x.elements():
+    print("% s : % s" %(i, x[i]), end = "\n")
