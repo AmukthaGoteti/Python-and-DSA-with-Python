@@ -83,3 +83,10 @@ from collections import OrderedDict
 od1 = OrderedDict([('a', 1), ('b', 2), ('c', 3)])
 od2 = OrderedDict([('c', 3), ('b', 2), ('a', 1)])
 print(od1 == od2)
+# Reversing an OrderedDict
+"""
+    OrderedDict doesn't have a built-in reverse() method,
+    but you can reverse its order 
+    by using Python's reversed() 
+    function on list(od.items()).
+"""
