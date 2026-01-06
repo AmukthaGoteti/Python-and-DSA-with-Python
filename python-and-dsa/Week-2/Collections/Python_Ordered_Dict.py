@@ -66,3 +66,10 @@ for k, v in od.items():
     This means you can update the values 
     without affecting the original key order.
 """
+from collections import OrderedDict
+od = OrderedDict([('a', 1), ('b', 2), ('c', 3), ('d', 4)])
+for k, v in od.items():
+    print(k, v)
+od['c'] = 5
+for k, v in od.items():
+    print(k, v)
