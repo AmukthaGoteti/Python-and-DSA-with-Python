@@ -90,3 +90,8 @@ print(od1 == od2)
     by using Python's reversed() 
     function on list(od.items()).
 """
+from collections import OrderedDict
+d1 = OrderedDict([('a', 1), ('b', 2), ('c', 3)])
+d2 = OrderedDict(reversed(list(d1.items())))
+for k, v in d2.items():
+    print(k, v)
