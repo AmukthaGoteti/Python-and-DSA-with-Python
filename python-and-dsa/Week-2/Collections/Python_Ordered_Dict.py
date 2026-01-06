@@ -95,3 +95,15 @@ d1 = OrderedDict([('a', 1), ('b', 2), ('c', 3)])
 d2 = OrderedDict(reversed(list(d1.items())))
 for k, v in d2.items():
     print(k, v)
+# Pop Last or First Item
+"""
+    In OrderedDict, popitem() can remove either 
+    the last item (last=True, default) or 
+    the first item (last=False).
+    In contrast, a normal dict’s popitem() 
+    always removes the last item only.
+"""
+from collections import OrderedDict
+d = OrderedDict([('a', 1), ('b', 2),('c', 3)])
+res = d.popitem(last=True)
+print(res)
