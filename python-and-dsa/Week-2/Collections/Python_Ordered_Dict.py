@@ -125,3 +125,13 @@ for k, v in d.items():
     OrderedDict moves it to the end, 
     preserving insertion order.
 """
+from collections import OrderedDict
+od = OrderedDict([('a', 1), ('b', 2), ('c', 3), ('d', 4)])
+od.pop('c')
+print('After Deletion')
+for k, v in od.items():
+    print(k, v)
+od['c'] = 3
+print('After Reinserting')
+for k, v in od.items():
+    print(k, v)
