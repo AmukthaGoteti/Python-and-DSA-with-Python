@@ -107,3 +107,15 @@ from collections import OrderedDict
 d = OrderedDict([('a', 1), ('b', 2),('c', 3)])
 res = d.popitem(last=True)
 print(res)
+# Move Keys to front or end
+"""
+    With the move_to_end() method, 
+    OrderedDict provides the 
+    flexibility to reposition keys.
+"""
+from collections import OrderedDict
+d = OrderedDict([('a', 1), ('b', 2), ('c', 3)])
+d.move_to_end('a')
+d.move_to_end('b', last=False)
+for k, v in d.items():
+    print(k, v)
