@@ -119,3 +119,9 @@ d.move_to_end('a')
 d.move_to_end('b', last=False)
 for k, v in d.items():
     print(k, v)
+# Deleting and re-inserting Keys
+"""
+    Deleting and re-inserting a key in an 
+    OrderedDict moves it to the end, 
+    preserving insertion order.
+"""
