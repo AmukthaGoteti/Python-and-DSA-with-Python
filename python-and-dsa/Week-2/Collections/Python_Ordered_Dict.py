@@ -58,3 +58,11 @@ print('OrderedDict: ')
 od = OrderedDict([('d', 4), ('b', 2), ('a', 1), ('c', 3)])
 for k, v in od.items():
     print(k, v)
+# Changing value does not affect order
+"""
+    In an OrderedDict, modifying the value of an 
+    existing key does not change 
+    its position in the order. 
+    This means you can update the values 
+    without affecting the original key order.
+"""
