@@ -1,4 +1,4 @@
-# 🔍 Advanced Logic Hazard Analyzer
+# 🔍 Hazard Detector and Simulator in Python
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![Status](https://img.shields.io/badge/Status-Active-success.svg)
@@ -6,114 +6,109 @@
 ![Focus](https://img.shields.io/badge/Focus-Hazard%20Detection-purple.svg)
 ![License](https://img.shields.io/badge/License-Educational-lightgrey.svg)
 
-A Python-based tool for **automated detection, simulation, and visualization of logic hazards** in combinational digital circuits.  
-The system models real-world gate delays, detects glitches during input transitions, and suggests Boolean fixes using consensus terms.
+A Python-driven framework designed for **automatic detection, simulation, and visualization of logic hazards** in combinational digital circuits.
+The analyzer incorporates realistic gate-delay modeling, identifies glitches during input transitions, and recommends Boolean corrections using consensus terms.
 
 ---
 
-## 📌 Problem Overview
+## 📌 Problem Statement
 
-Even when a Boolean function is logically correct, **unequal propagation delays** in hardware can cause unwanted output glitches known as **hazards**.
+A Boolean expression may be logically sound, yet **unequal propagation delays** in real hardware can still introduce transient output glitches—commonly referred to as **logic hazards**.
 
-Manual detection:
-- Does not scale
-- Misses timing-related failures
-- Becomes unreliable for complex logic
+Traditional manual analysis:
 
-This project provides a **timing-aware, automated solution**.
+* Does not scale well
+* Overlooks timing-induced failures
+* Becomes error-prone as complexity increases
 
----
-
-## 🚀 Key Features
-
-- User-defined Boolean expression input
-- Exhaustive truth table generation
-- Randomized gate delay modeling
-- Gate-level transition simulation
-- Detection of:
-  - Static-1 hazards
-  - Static-0 hazards
-  - Dynamic hazards
-  - Essential hazards
-- Monte Carlo–based confidence scoring
-- Severity analysis using toggle counts
-- Automatic consensus-term suggestions
-- Optional waveform visualization
-- Modular and extensible architecture
+This project delivers a **fully automated, timing-aware approach** to hazard analysis.
 
 ---
 
-## 🧠 Hazard Types Explained
+## 🚀 Core Capabilities
 
-| Hazard Type | Description |
-|------------|-------------|
-| **Static-1** | Output briefly drops from 1 during transition |
-| **Static-0** | Output briefly rises from 0 during transition |
-| **Dynamic** | Output toggles multiple times before stabilizing |
-| **Essential** | Hazard due to unavoidable delay dependencies |
+* Custom Boolean expression input
+* Complete truth table generation
+* Randomized gate-delay assignment
+* Gate-level transition simulation
+* Automated identification of:
+
+  * Static hazards
+  * Dynamic hazards
+  * Essential hazards
+* Hazard severity evaluation via toggle counts
+* Automatic consensus-term recommendations
+* Optional waveform-based visualization
+* Clean, modular, and extensible design
 
 ---
 
-## 🏗️ System Architecture
+## 🧠 Hazard Classification
+
+| Hazard Type   | Description                                                |
+| ------------- | ---------------------------------------------------------- |
+| **Static**    | Output momentarily changes despite a stable expected value |
+| **Dynamic**   | Output oscillates multiple times before settling           |
+| **Essential** | Hazard caused by unavoidable delay dependencies            |
+
+---
+
+## 🏗️ Architecture Overview
 
 ```
-
 User Input
 │
 ▼
-Boolean Function Engine
+Boolean Expression Engine
 │
 ▼
 Truth Table Generator
 │
 ▼
-Random Delay Model
+Delay Modeling Module
 │
 ▼
 Transition Simulator
 │
 ▼
-Hazard Detector
+Hazard Detection Engine
 │
 ▼
-Fix Suggestions + Waveform Visualization
-
+Fix Recommendations + Waveform Output
 ```
 
 ---
 
-## 📂 Project Structure
+## 📂 Repository Layout
 
 ```
-
 advanced-logic-hazard-analyzer/
 │
-├── Hazard_Detector_and_Simulator_in_Python.py            # Complete hazard analysis system
-├── README.md          # Documentation
-
-````
-
----
-
-## 🛠️ Technologies Used
-
-- Python 3.x
-- Boolean Algebra
-- Digital Logic Design
-- Monte Carlo Simulation
-- Matplotlib (waveform visualization)
+├── Hazard_Detector_and_Simulator_in_Python.py   # End-to-end hazard analysis engine
+├── README.md                                   # Project documentation
+```
 
 ---
 
-## ▶️ Getting Started
+## 🛠️ Technology Stack
 
-### 1️⃣ Install Dependencies
+* Python 3.x
+* Boolean Algebra
+* Digital Logic Design Principles
+* Monte Carlo–based Delay Simulation
+* Matplotlib for waveform visualization
+
+---
+
+## ▶️ Quick Start
+
+### 1️⃣ Install Requirements
 
 ```bash
 pip install matplotlib
-````
+```
 
-### 2️⃣ Run the Analyzer
+### 2️⃣ Execute the Analyzer
 
 ```bash
 python main.py
@@ -121,7 +116,7 @@ python main.py
 
 ---
 
-## 🧪 Example Input
+## 🧪 Sample Input
 
 ```text
 Enter Boolean expression (& | ~): (~A & ~B) | (A & ~C)
@@ -132,61 +127,60 @@ Show waveform? (y/n): y
 
 ---
 
-## 📊 Sample Output
+## 📊 Example Output
 
 ```text
 Hazard 1: Static-1 Hazard
 Transition: (0, 0, 0) → (0, 0, 1)
 Confidence: 35%
 Severity (toggles): 2
-Explanation: OR-reconvergent path delay mismatch.
+Explanation: OR reconvergent path delay mismatch
 Suggested Consensus Term: ~A & ~B
 ```
 
 ---
 
-## 📈 Waveform Visualization
+## 📈 Waveform Analysis
 
-> Output glitches are visualized using step plots for precise timing analysis.
+> Output glitches are visualized using step-based waveforms to enable precise timing inspection.
 
-### Example Waveform
-
-![Waveform Example](Figure_1.png)
+**Example:**
+Waveform plots clearly expose transient behavior during critical input transitions.
 
 ---
 
-## 🧩 Hazard Fix Strategy
+## 🧩 Hazard Elimination Strategy
 
-The analyzer suggests **consensus terms** to eliminate static hazards without changing logic functionality.
+To remove static hazards without altering logic functionality, the analyzer proposes **consensus terms**.
 
-**Example**
+**Illustration**
 
 ```text
 Original: A·B + A'·C
-Fix:      A·B + A'·C + B·C
+Improved: A·B + A'·C + B·C
 ```
 
 ---
 
-## 🎯 Why This Project Stands Out
+## 🎯 What Makes This Project Distinct
 
-* Models **real hardware timing**, not ideal logic
-* Automates a traditionally manual verification task
-* Bridges theory with practical digital design
-* Suitable for:
+* Captures **real-world timing behavior**, not idealized logic
+* Automates a traditionally manual verification process
+* Connects digital logic theory with practical hardware concerns
+* Well-suited for:
 
-  * ECE coursework
-  * Hardware verification learning
-  * Research foundations
-  * Portfolio & interview discussion
+  * ECE academic projects
+  * Hardware verification practice
+  * Research groundwork
+  * Strong technical portfolios and interviews
 
 ---
 
-## 🔮 Future Enhancements
+## 🔮 Planned Enhancements
 
-* SOP / POS canonical form support
-* Karnaugh map visualization
+* SOP and POS canonical form support
+* Karnaugh map-based visualization
 * Gate-level netlist parsing
-* Delay distribution tuning
+* Configurable delay distributions
 * Exportable analysis reports
-* HDL workflow integration
+* Integration with HDL-based workflows
