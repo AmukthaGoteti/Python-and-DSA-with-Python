@@ -241,8 +241,8 @@ def plot_waveform(wave, title):
 def main():
     print("\nAdvanced Logic Hazard Analyzer\n")
 
-    expr = input("Enter Boolean expression (& | ~): ")
-    variables = [v.strip() for v in input("Variables (comma-separated): ").split(",")]
+    expr = input("Enter Boolean expression (& | ~) (example: (~A & ~B) | (A & ~C)): ")
+    variables = [v.strip() for v in input("Variables (comma-separated) (Example: A, B, C): ").split(",")]
 
     show_tt = input("Show truth table? (y/n): ").lower() == "y"
     show_wave = input("Show waveform? (y/n): ").lower() == "y"
