@@ -26,6 +26,10 @@ print(d['juices'])
 """
 # UUse Case of defaultdict
 # Using List as Default Factory
+"""
+    When the list class is passed as the default_factory argument, 
+    then a defaultdict is created with the values that are list.
+"""
 from collections import defaultdict
 d = defaultdict(list)
 for i in range(5):
