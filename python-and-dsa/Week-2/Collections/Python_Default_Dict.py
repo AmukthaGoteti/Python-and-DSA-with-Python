@@ -57,3 +57,14 @@ from collections import defaultdict
 sd = defaultdict(str)
 sd['greeting'] = 'Hello'
 print(sd)
+# Grouping Words by First Letter
+"""
+    defaultdict is very handy in text processing, 
+    for example grouping words by their starting letter.
+"""
+from collections import defaultdict
+words = ["apple", "ant", "banana", "bat", "carrot", "cat"]
+grouped = defaultdict(list)
+for word in words:
+    grouped[word[0]].append(word)
+print(grouped)
