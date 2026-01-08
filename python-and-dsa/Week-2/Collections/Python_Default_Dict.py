@@ -36,3 +36,14 @@ for i in range(5):
     d[i].append(i)
 print("Dictionary with values as list: ")
 print(d)
+# Using int Default Factory
+"""
+    When the int class is passed as the default_factory argument, 
+    then a defaultdict is created with default value as zero.
+"""
+from collections import defaultdict
+d = defaultdict(int)
+a = [1, 2, 3, 4, 2, 4, 1, 2]
+for i in a:
+    d[i] += 1
+print(d)
