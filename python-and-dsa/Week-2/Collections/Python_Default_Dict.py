@@ -47,3 +47,13 @@ a = [1, 2, 3, 4, 2, 4, 1, 2]
 for i in a:
     d[i] += 1
 print(d)
+# Using str Default Factory
+"""
+    With defaultdict(str), any new key automatically maps to '', 
+    so you can concatenate text without key checks.
+"""
+from collections import defaultdict
+# Uising str as the factory function
+sd = defaultdict(str)
+sd['greeting'] = 'Hello'
+print(sd)
