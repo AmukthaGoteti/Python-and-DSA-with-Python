@@ -9,4 +9,11 @@
     On the contrary, it supports both access 
     from key-value and iteration, 
     the functionality that dictionaries lack.
+
+    Syntax:
+        namedtuple(typename, field_names)
+            typename - 
+                The name of the namedtuple. 
+            field_names - 
+                The list of attributes stored in the namedtuple.
 """
