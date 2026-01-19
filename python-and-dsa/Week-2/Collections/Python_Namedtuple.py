@@ -63,3 +63,7 @@ S = Student('Nandini', '19', '2541997')
 # Accessing using index
 print("The Student age using index is : ", end="")
 print(S[1])
+# Access by keyname
+# Access by keyname is also allowed as in dictionaries.
+print("The Student name using keyname is : ", end="")
+print(S.name)
