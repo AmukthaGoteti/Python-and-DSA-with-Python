@@ -67,3 +67,10 @@ print(S[1])
 # Access by keyname is also allowed as in dictionaries.
 print("The Student name using keyname is : ", end="")
 print(S.name)
+# Access Using getattr()
+"""
+    This is yet another way to access the value by giving 
+    namedtuple and key value as its argument.
+"""
+print("The Student DOB using getattr() is : ", end="")
+print(getattr(S, 'DOB'))
