@@ -40,3 +40,26 @@ from collections import namedtuple
 Point = namedtuple('Point', ['x', 'y'])
 p = Point(x=1, y=2)
 print(p.x, p.y)
+# Access Operations
+"""
+    Namedtuples in Python provide convenient ways to access their fields. 
+    Below are some access operations provided in Python for NamedTuple:
+        Access by index
+        Access by keyname
+        Access Using getattr()
+"""
+# Access By Index
+"""
+    The attribute values of namedtuple() are 
+    ordered and can be accessed using the index number 
+    unlike dictionaries which are not accessible by index.
+"""
+# importing "collections" for namedtuple()
+import collections
+# Declaring namedtuple()
+Student = collections.namedtuple('Student', ['name', 'age', 'DOB'])
+# Adding values
+S = Student('Nandini', '19', '2541997')
+# Accessing using index
+print("The Student age using index is : ", end="")
+print(S[1])
