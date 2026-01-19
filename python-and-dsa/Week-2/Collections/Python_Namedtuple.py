@@ -29,3 +29,14 @@ print(S[1])
 # Accessing using name
 print("The Student name using keyname is : ", end="")
 print(S.name)
+# Create a NameTuple in Python
+"""
+    This creates a new namedtuple class using the namedtuple() function 
+    from the collections module. 
+    The first argument is the name of the new class, 
+    and the second argument is a list of field names.
+"""
+from collections import namedtuple
+Point = namedtuple('Point', ['x', 'y'])
+p = Point(x=1, y=2)
+print(p.x, p.y)
