@@ -74,3 +74,30 @@ print(S.name)
 """
 print("The Student DOB using getattr() is : ", end="")
 print(getattr(S, 'DOB'))
+# Conversion Operations
+"""
+    Namedtuples provide a few useful conversion 
+    operations to work with other data types in Python. 
+    Below are the following conversion operations 
+    that is provided for namedtuples in Python:
+        Using _make()
+        Using _asdict()
+        Using “**” (double star) operator
+"""
+# Using _make()
+"""
+    This function is used to return a namedtuple() 
+    from the iterable passed as argument. 
+"""
+# importing "collections" for namedtuple()
+import collections
+# Declaring namedtuple()
+Student = collections.namedtuple('Student', ['name', 'age', 'DOB'])
+# Adding values
+S = ['Nandini', '19', '2541997']
+# initializing iterable
+li = ["Manjeet", '19', '411997']
+di = {'name': "Nikhil", 'age': 19, 'DOB': '1391997'}
+# using _make() to return namedtuple()
+print("The namedtuple instance using _make(): ")
+print(Student._make(li))
