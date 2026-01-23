@@ -124,3 +124,26 @@ print(S._asdict())
 """
 print("The namedtuple instance using ** operator is  : ")
 print(Student(**di))
+# Additional Operations
+"""
+    There are some additional operations 
+    that are provided in Python 
+    for NamedTuples:
+        _fields
+        _replace()
+        __new__()
+        __getnewargs__()
+"""
+# _fields
+"""
+    This data attribute is 
+    used to get all the 
+    keynames of the namespace declared.
+"""
+import collections
+Student = collections.namedtuple('Student', ['name', 'age', 'DOB'])
+# Adding Values
+S = Student('Nandini', '19', '2541997')
+# using _fields to print all the key names of namedtuple
+print("The key names of namedtuple are : ")
+print(S._fields)
