@@ -173,3 +173,15 @@ S = Student('Nandini', '19', '2541997')
 # using __new__() to create a new object of namedtuple
 print("The new namedtuple instance using __new__ is : ")
 print(Student.__new__(Student, 'Manjeet', '19', '411997'))
+# __getnewargs__()
+"""
+    This function returns the named tuple as a plain tuple.
+"""
+import collections
+# Declaring namedtuple()
+Student = collections.namedtuple('Student', ['name', 'age', 'DOB'])
+# Adding values
+S = Student('Nandini', '19', '2541997')
+H = Student('Himesh','19','26082003')
+# .__getnewargs__ returns the named tuple as a plain tuple
+print(H.__getnewargs__())
