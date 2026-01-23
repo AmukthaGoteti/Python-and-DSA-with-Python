@@ -160,3 +160,16 @@ S = Student('Nandini', '19', '2541997')
 # using _replace() to replace a value
 print("The namedtuple after replacing name is : ")
 print(S._replace(name='Manjeet'))
+# __new__()
+"""
+    This function is used to create 
+    and return a new object of namedtuple().
+"""
+import collections
+# Declaring namedtuple()
+Student = collections.namedtuple('Student', ['name', 'age', 'DOB'])
+# Adding values
+S = Student('Nandini', '19', '2541997')
+# using __new__() to create a new object of namedtuple
+print("The new namedtuple instance using __new__ is : ")
+print(Student.__new__(Student, 'Manjeet', '19', '411997'))
