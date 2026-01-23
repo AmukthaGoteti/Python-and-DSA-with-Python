@@ -147,3 +147,16 @@ S = Student('Nandini', '19', '2541997')
 # using _fields to print all the key names of namedtuple
 print("The key names of namedtuple are : ")
 print(S._fields)
+# _replace()
+"""
+    _replace() is like str.replace() 
+    but targets named fields(does not modify the original values).
+"""
+import collections
+# Declaring namedtuple()
+Student = collections.namedtuple('Student', ['name', 'age', 'DOB'])
+# Adding values
+S = Student('Nandini', '19', '2541997')
+# using _replace() to replace a value
+print("The namedtuple after replacing name is : ")
+print(S._replace(name='Manjeet'))
