@@ -118,3 +118,9 @@ di = {'name': "Nikhil", 'age': 19, 'DOB': '1391997'}
 # using _asdict() to return an OrderedDict()
 print("The OrderedDict instance using namedtuple is  : ")
 print(S._asdict())
+# Using "**" (double star) operator
+"""
+    This function is used to convert a dictionary into the namedtuple().
+"""
+print("The namedtuple instance using ** operator is  : ")
+print(Student(**di))
