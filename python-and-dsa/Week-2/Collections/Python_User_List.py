@@ -1,7 +1,8 @@
 # User List in Python
 """
     Python has something called UserList in the collections module. 
-    UserList is a way to create your own version of a list with additional or modified features.
+    UserList is a way to create your own version of a list 
+    with additional or modified features.
 """
 # Python program to demonstrate
 # Userlist
