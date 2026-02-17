@@ -9,3 +9,6 @@ L = [1, 2, 3, 4]
 # Creating a UserList
 userL = UserList(L)
 print(userL.data)
+# Creating empty userlist
+userL = UserList()
+print(userL.data)
