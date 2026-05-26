@@ -9,12 +9,11 @@
 # Creating a String  
 # with single Quotes 
 String1 = 'Welcome to the geeksforgeeks'
-print(String1)
+print("\n", String1, "\n")
 # Creating a String 
 # with double Quotes 
 String1 = "I'm a Geek"
-print("\nString with the use of Double Quotes: ") 
-print(String1)
+print(String1, "\n")
 # Python program to demonstrate
 # userstring
 from collections import UserString
