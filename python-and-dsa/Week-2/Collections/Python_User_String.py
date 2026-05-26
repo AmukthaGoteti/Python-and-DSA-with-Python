@@ -8,8 +8,7 @@
 # string
 # Creating a String  
 # with single Quotes 
-String1 = 'Welcome to the Geeks World'
-print("String with the use of Single Quotes: ") 
+String1 = 'Welcome to the geeksforgeeks'
 print(String1)
 # Creating a String 
 # with double Quotes 
