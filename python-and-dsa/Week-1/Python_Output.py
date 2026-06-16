@@ -1,3 +1,4 @@
+# Python print() function
 # print() function is used to print a python object(s) in python as standard output
 # Syntax -> print(object(s), sep, end, file, flush)
 # Sample Python Objects
@@ -11,13 +12,13 @@ list = [1, 2, 3,]
 tuple = ("A", "B")
 string = "Amuktha"
 # Printing the Objects
-print(list, tuple, string, sep = "<<..>>")
+print(list, tuple, string, sep = " | ")
 # sample python objects
 list = [1,2,3]
 tuple = ("A","B")
 string = "Geeksforgeeks"
 # printing the objects
-print(list,tuple,string, end="<<..>>")
+print(list,tuple,string, end=" --> END ")
 # Open and read the file
 my_file = open("python-and-dsa/Week-1/geeksforgeeks.txt","r")
 # Print the contents of the file
@@ -32,6 +33,8 @@ Location = "Noida"
 Email = "contact@geeksforgeeks.org"
 # print to stderr
 print(Company, Location, Email, file=sys.stderr)
+
+# Python - Output Formatting
 # string modulo operator(%)
 print("Geeks : %2d, Portal : %5.2f" % (1, 05.333)) 
 print("Total students : %3d, Boys : %2d" % (240, 120))   # print integer value
