@@ -36,20 +36,42 @@ By working through this repository, you will:
 
 ```bash
 ├── python-and-dsa/
-│   ├── Week-1
+│   ├── Week-1/
 │   │    ├── Python_Keywords.py
 │   │    ├── Python_Output.py
 │   │    ├── Python_Input.py
-│   │    └── ...
-│   ├── Week-2
-│   ├── Week-3
-│   ├── Week-4
+│   │    ├── ...
+│   │    └── README.md
+│   ├── Week-2/
+│   ├── Week-3/
+│   ├── Week-4/
 │   └── ...
 │
 ├── problems/
 │   ├── easy/
+│   │    ├── Problem_1/
+│   │    │   ├── Problem_1.py
+│   │    │   └── README.md
+│   │    ├── Problem_2/
+│   │    ├── Problem_3/
+│   │    ├── Problem_4/
+│   │    └── ...
 │   ├── medium/
+│   │    ├── Problem_1/
+│   │    │   ├── Problem_1.py
+│   │    │   └── README.md
+│   │    ├── Problem_2/
+│   │    ├── Problem_3/
+│   │    ├── Problem_4/
+│   │    └── ...
 │   └── hard/
+│        ├── Problem_1/
+│        │   ├── Problem_1.py
+│        │   └── README.md
+│        ├── Problem_2/
+│        ├── Problem_3/
+│        ├── Problem_4/
+│        └── ... 
 │
 ├── projects/
 │   ├── Project_1/
@@ -59,14 +81,6 @@ By working through this repository, you will:
 │   │    ├── Emotional_Support_Chatbot.py
 │   │    └── README.md
 │   └── ...
-│
-├── Theory-and-Conceptual-Understanding/
-│   ├── Detailed_Notes/
-│   │    ├── Python_and_DSA_Week_1_Detailed_Notes.pdf
-│   │    └── ...
-│   └── Summary_Notes/
-│        ├── Week_1_Summary_Notes.md
-│        └── ...
 │
 ├── Interview-Readiness-Tasks/
 │   ├── HR-and-Behavioural-Questions.txt
