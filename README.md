@@ -10,10 +10,9 @@ It is designed not just for coding practice, but for developing **problem-solvin
 
 The repository is built around four complementary pillars:
 
-1. **Hands-on Python and DSA Coding**
+1. **Hands-on Python and DSA Coding along with Theory and Conceptual Understanding**
 2. **Real-world Mini Projects**
-3. **Theory and Conceptual Understanding**
-4. **Interview-Readiness Practice**
+3. **Interview-Readiness Practice**
 
 Together, these ensure balanced growth across implementation, reasoning, and communication.
 
@@ -177,22 +176,6 @@ pytest
 # or
 python -m unittest
 ```
-
----
-
-## 📘 Theory and Conceptual Understanding
-
-Located in `Theory-and-Conceptual-Understanding/`, this section strengthens **fundamentals interviewers often probe indirectly**.
-
-### Suggested Workflow
-
-* Read once for understanding
-* Revisit weekly alongside DSA practice
-* Revise thoroughly before interviews
-
-### Outcome
-
-You gain the ability to **explain concepts clearly**, not just implement them.
 
 ---
 
