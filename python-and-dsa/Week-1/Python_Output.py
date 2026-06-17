@@ -8,6 +8,25 @@ tuple = ("A", "B")
 string = "Amuktha"
 # Printing the objects
 print(list, tuple, string)
+"""
+    Syntax:
+        print(*objects, sep=' ', end='\n', file=None, flush=False)
+    
+    Parameters:
+
+        *objects: one or more values to print (positional arguments)
+        sep: string inserted between objects (default is ' ')
+        end: string appended at the end (default is '\n')
+        file: output stream (default is sys.stdout)
+        flush: whether to flush the stream immediately 
+        (default is False)
+    
+    Note: 
+        The parameters sep, end, file, and flush in the print() 
+        function are keyword-only arguments. 
+        This means they must be specified using their 
+        parameter names, not by position.
+"""
 
 # Example 2
 # Sample python objects
