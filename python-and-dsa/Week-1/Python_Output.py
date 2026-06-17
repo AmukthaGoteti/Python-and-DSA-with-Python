@@ -1,28 +1,38 @@
 # Python print() function
 # print() function is used to print a python object(s) in python as standard output
 # Syntax -> print(object(s), sep, end, file, flush)
+# Eample 1
 # Sample Python Objects
 list = [1, 2, 3]
 tuple = ("A", "B")
 string = "Amuktha"
 # Printing the objects
 print(list, tuple, string)
+
+# Example 2
 # Sample python objects
 list = [1, 2, 3,]
 tuple = ("A", "B")
 string = "Amuktha"
 # Printing the Objects
 print(list, tuple, string, sep = " | ")
+
+# Example 3
 # sample python objects
 list = [1,2,3]
 tuple = ("A","B")
 string = "Geeksforgeeks"
 # printing the objects
 print(list,tuple,string, end=" --> END ")
+
+# Example 4
 # Open and read the file
 my_file = open("python-and-dsa/Week-1/geeksforgeeks.txt","r")
 # Print the contents of the file
 print(my_file.read())
+my_file.close()
+
+# Example 5
 # Python code for printing to stderr
 # importing the package
 # for sys.stderr
