@@ -23,7 +23,7 @@ list = [1,2,3]
 tuple = ("A","B")
 string = "Geeksforgeeks"
 # printing the objects
-print(list,tuple,string, end=" --> END ")
+print(list,tuple,string, end=" --> END\n")
 
 # Example 4
 # Open and read the file
