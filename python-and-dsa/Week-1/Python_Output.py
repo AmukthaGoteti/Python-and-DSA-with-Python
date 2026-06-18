@@ -46,10 +46,10 @@ print(list,tuple,string, end=" --> END\n")
 
 # Example 4
 # Open and read the file
-my_file = open("python-and-dsa/Week-1/geeksforgeeks.txt","r")
+f = open("python-and-dsa/Week-1/geeksforgeeks.txt","r")
 # Print the contents of the file
-print(my_file.read())
-my_file.close()
+print(f.read())
+f.close()
 
 # Example 5
 # Python code for printing to stderr
