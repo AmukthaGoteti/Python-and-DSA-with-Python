@@ -40,7 +40,7 @@ print(list, tuple, string, sep = " | ")
 # sample python objects
 list = [1,2,3]
 tuple = ("A","B")
-string = "Geeksforgeeks"
+string = "Python"
 # printing the objects
 print(list,tuple,string, end=" --> END\n")
 
