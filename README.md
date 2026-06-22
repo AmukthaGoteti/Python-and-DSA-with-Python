@@ -46,7 +46,7 @@ By working through this repository, you will:
 │   ├── Week-4/
 │   └── ...
 │
-├── problems/
+├── leetcode/
 │   ├── easy/
 │   │    ├── Problem_1/
 │   │    │   ├── Problem_1.py
