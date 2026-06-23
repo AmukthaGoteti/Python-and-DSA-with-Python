@@ -69,6 +69,7 @@ print("Geeks : %2d, Portal : %5.2f" % (1, 05.333))
 print("Total students : %3d, Boys : %2d" % (240, 120))   # print integer value
 print("%7.3o" % (25))   # print octal value
 print("%10.3E" % (356.08977))   # print exponential value
+
 # Positional formatting with format() method
 # Using indexed placeholders for string formatting
 print("I love {0} for \"{1}!\"".format("Geeks", "Geeks"))
@@ -76,6 +77,7 @@ print("I love {0} for \"{1}!\"".format("Geeks", "Geeks"))
 print("{0} and Portal".format("Geeks"))
 # Formatting with placeholders, {0} replaced by 'Geeks'
 print("Portal and {0}".format("Geeks"))
+
 # Advanced formatting with positional and named arguments
 # Mixing positional and named arguments
 template = "Number one portal is {0}, {1} and {other}."
@@ -86,6 +88,7 @@ print("Geeks :{0:2d}, Portal :{1:8.2f}".format(12, 0.5534))
 print("Second argument: {1:3d}, first one: {0:8.2f}".format(47.42, 11))
 # Using named arguments for clarity in complex formats
 print("Geeks: {a:5d}, Portal: {p:8.2f}".format(a=453, p=59.058))
+
 cstr = "I love geeksforgeeks"
 # Printing the center aligned string with fillchr
 print("Center aligned: ")
