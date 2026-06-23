@@ -79,6 +79,10 @@ print("{0} and Portal".format("Geeks"))
 print("Portal and {0}".format("Geeks"))
 
 # Advanced formatting with positional and named arguments
+# Mutliple placeholders
+name = "Geeks"
+age = 3
+print("Name: {}, Age: {}".format(name, age))
 # Mixing positional and named arguments
 template = "Number one portal is {0}, {1} and {other}."
 print(template.format("Geeks", "For", other="Geeks"))
