@@ -10,4 +10,8 @@ print(list, tuple, string)
 list = [1, 2, 3]
 tuple = ("A", "B")
 string = "Amuktha"
-print(list, tuple, string, sep =" | ")
+print(list, tuple, string, sep=" | ")
+list = [1, 2, 3]
+tuple = ("A", "B")
+String = "Python"
+print(list, tuple, string, end= " -> END\n")
