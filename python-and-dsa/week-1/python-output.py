@@ -19,3 +19,8 @@ print(list, tuple, string, end= " -> END\n")
 f = open("python-and-dsa/week-1/geeksforgeeks.txt", "r")
 print(f.read())
 f.close()
+import sys #sys -> system
+company = "GeeksforGeeks"
+loc = "Nodia"
+mail = "contact@gfg.org"
+print(company, loc, mail, file = sys.stderr) #sys.stderr -> system standard error
