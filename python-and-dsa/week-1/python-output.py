@@ -13,5 +13,9 @@ string = "Amuktha"
 print(list, tuple, string, sep=" | ")
 list = [1, 2, 3]
 tuple = ("A", "B")
-String = "Python"
+string = "Python"
 print(list, tuple, string, end= " -> END\n")
+# Syntax: f=open("file_name", "r")
+f = open("python-and-dsa/week-1/geeksforgeeks.txt", "r")
+print(f.read())
+f.close()
