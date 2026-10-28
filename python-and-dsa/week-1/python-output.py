@@ -24,3 +24,9 @@ company = "GeeksforGeeks"
 loc = "Nodia"
 mail = "contact@gfg.org"
 print(company, loc, mail, file = sys.stderr) #sys.stderr -> system standard error
+# Output Formatting Basic Syntax: "format-string" %value
+# Syntax for multiple values: "format-string" %(value1, value2...)
+print("Geeks: %2d, For: %5.2f" %(1, 05.333))
+print("Total students: %3d, Boys: %2d" %(240, 120))
+print("%7.3o" %(25))
+print("%10.3E" %(356.08977))
