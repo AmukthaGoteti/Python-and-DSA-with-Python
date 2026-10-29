@@ -34,3 +34,7 @@ print("%10.3E" %(356.08977))
 print("I love {0} and \"{1}!\"" .format("Geeks", "Geeks"))
 print(("{0} and Portal" .format("Geeks")))
 print("Portal and {0}".format("Geeks"))
+# Named arguments Syntax: "{variable_name}", format(variable_name=value)
+template ="Number one portal is {0}, {1} and {other}."
+print(template.format("Geeks", "for", other="Geeks"))
+print("Geek: {0:2d}, Portal: {1:8.2f}" .format(12, 0.5534))
